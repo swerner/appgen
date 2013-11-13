@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+$:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
+
+require 'appgen'
+
+if File.exists?("./specifications.json")
+  Appgen::Application.new( JSON.parse("./specifications.json") )
+else
+  puts "No specifications.json file found"
+end

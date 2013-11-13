@@ -1,0 +1,14 @@
+{
+  "application_name": "Test Application",
+  "custom_features": [
+    {
+      "name": "Task"
+    },
+    {
+      "name": "Customer"
+    },
+    {
+      "name": "Product"
+    }
+  ]
+}
