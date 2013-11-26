@@ -9,7 +9,7 @@ module Appgen
 
     private
     def setup_custom_features(features)
-
+      features.map { |feature| CustomFeature.new(feature)}
     end
   end
 end

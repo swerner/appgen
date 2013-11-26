@@ -2,7 +2,7 @@ module Appgen
   class CustomFeature
 
     SUPPORTED_TYPES = ["integer", "string", "datetime", "text", "boolean"]
-    TODO_TYPES = [
+    ACTIVERECORD_TYPES = [
       'binary',
       'date',
       'decimal',

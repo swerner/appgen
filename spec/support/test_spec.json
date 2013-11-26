@@ -2,13 +2,19 @@
   "application_name": "Test Application",
   "custom_features": [
     {
-      "name": "Task"
+      "name": "Task",
+      "fields": { "title": "string" }
     },
     {
-      "name": "Customer"
+      "name": "Customer",
+      "fields": { "name": "string" }
     },
     {
-      "name": "Product"
+      "name": "Product",
+      "fields": { 
+        "sku": "integer",
+        "created_at":"datetime"
+      }
     }
   ]
 }
